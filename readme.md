@@ -9,7 +9,7 @@ For straight visualization on the training process of reinforcement. Curent ipyn
 
 ## Pre-processing
 
- - [src/data_utils.py](src/data_utils.py) contains code for brain extraction, volume registered and converting volumes to slices. As mentioned in paper, we use [HD-BET](https://github.com/MIC-DKFZ/HD-BET) to skull-tripped and use [Flirt](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT) to registered brain MRI volumes.
+ - [src/data_utils.py](data_utils.py) contains code for brain extraction, volume registered and converting volumes to slices. As mentioned in paper, we use [HD-BET](https://github.com/MIC-DKFZ/HD-BET) to skull-tripped and use [Flirt](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT) to registered brain MRI volumes.
 
  - function [brain_extraction] is used to perform brain extraction using HD-BET
  - function [registered_nii_IXI] is used to registered the volumes from IXI to standard template
