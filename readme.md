@@ -19,3 +19,4 @@ For straight visualization on the training process of reinforcement. Curent ipyn
 
 ## Information
 - please contact me if you need my pre-processed brain MRI slices or checkpoints to replicate my paper's result.
+- [visualize.ipynb] contains code and plots that used in the paper. Please contact me if you need the output images directly, or you can ask me for checkpoints to regenerate those output images.
